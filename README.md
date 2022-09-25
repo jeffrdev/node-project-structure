@@ -5,6 +5,7 @@ A directory structure for projects with [Node](https://nodejs.org).
 * [Philosophy](#philosophy)
 * [Folder and file structure](#folder-and-file-structure)
 * [Use](#use)
+	* [Cloning the repository with git](#cloning-the-repository-with-git)
 * [License](#license)
 
 ## Philosophy
@@ -65,7 +66,7 @@ cd my-app
 git remote add origin https://github.com/yourusername/your-project.git
 ```
 
-4. Push to origin to save the folder structure in your repository (Optional):
+4. Commit and push to origin to save the folder structure in your repository (Optional):
 
 ```console
 git add .
