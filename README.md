@@ -25,10 +25,10 @@ The philosophy of this repository is to provide a basic directory structure for 
                 📄 User.js
             ▽ 📁 Services
                 📄 UserService.js
-            ▽ 📁 config
-                📄 database.js
-            ▽ 📁 public
-                📄 robots.txt
+        ▽ 📁 config
+            📄 database.js
+        ▽ 📁 public
+            📄 robots.txt
         ▽ 📁 routes
             📄 api.js
         ▽ 📁 views
@@ -45,13 +45,33 @@ The philosophy of this repository is to provide a basic directory structure for 
 The files found in each folder were created so that the folders were uploaded to the repository.
 
 ## Use
-To use the directory structure for your project, clone the `Node Project Structure` repository:
+Steps to use the folder structure for your project:
+
+### Cloning the repository with git
+Locate yourself with the console in the directory where you want to clone the repository.
+
+1. Clone the `Node Project Structure` repository:
 
 ```console
 git clone https://github.com/santiagor0jas/node-project-structure.git
 ```
 
-Remember to rename the `node-project-structure` folder to whatever name you want and configure git to point to your repository.
+2. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
+
+3. Now set git to point to your repository:
+
+```console
+cd my-app
+git remote add origin https://github.com/yourusername/your-project.git
+```
+
+4. Push to origin to save the folder structure in your repository (Optional):
+
+```console
+git add .
+git commit -m "folder structure created"
+git push -u origin master or main
+```
 
 ## License
 MIT License
