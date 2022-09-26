@@ -60,6 +60,8 @@ git clone https://github.com/santiagor0jas/node-project-structure.git
 
 2. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
 
+> If your project must be licensed, modify the LICENSE file, if not, delete this same file.
+
 3. Now set git to point to your repository:
 
 ```console
