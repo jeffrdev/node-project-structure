@@ -53,7 +53,6 @@ Steps to use the folder structure for your project:
 Locate yourself with the console in the directory where you want to clone the repository.
 
 1. Clone the `Node Project Structure` repository:
-
 	```console
 	git clone https://github.com/santiagor0jas/node-project-structure.git
 	```
@@ -63,19 +62,17 @@ Locate yourself with the console in the directory where you want to clone the re
 3. If your project needs to be licensed, modify the LICENSE file, otherwise delete it.
 
 4. Now set git to point to your repository:
-
-```console
-cd my-app
-git remote add origin https://github.com/yourusername/your-project.git
-```
+	```console
+	cd my-app
+	git remote add origin https://github.com/yourusername/your-project.git
+	```
 
 5. Commit and push to origin to save the folder structure in your repository (Optional):
-
-  ```console
+	```console
 	git add .
 	git commit -m "folder structure created"
 	git push -u origin master or main
-  ```
+	```
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
