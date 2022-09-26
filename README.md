@@ -60,16 +60,16 @@ git clone https://github.com/santiagor0jas/node-project-structure.git
 
 2. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
 
-> If your project must be licensed, modify the LICENSE file, if not, delete this same file.
+3. If your project needs to be licensed, modify the LICENSE file, otherwise delete it.
 
-3. Now set git to point to your repository:
+4. Now set git to point to your repository:
 
 ```console
 cd my-app
 git remote add origin https://github.com/yourusername/your-project.git
 ```
 
-4. Commit and push to origin to save the folder structure in your repository (Optional):
+5. Commit and push to origin to save the folder structure in your repository (Optional):
 
 ```console
 git add .
