@@ -75,4 +75,4 @@ git push -u origin master or main
 ```
 
 ## License
-MIT License
+This project is licensed under the [MIT License](./LICENSE).
