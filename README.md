@@ -44,7 +44,7 @@ The philosophy of this repository is to provide a basic directory structure for 
       📄 LICENSE
       📄 README.md
 ```
-The files found in each folder were created so that the folders were uploaded to the repository.
+> The files found in each folder were created so that the folders were uploaded to the repository.
 
 ## Use
 Steps to use the folder structure for your project:
