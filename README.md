@@ -13,7 +13,7 @@ The philosophy of this repository is to provide a basic directory structure for 
 
 ## Folder and file structure
 ```
-▽ 📁 node-project-structure
+▽ 📁 node-directory-structure
     ▽ 📁 src
         ▽ 📁 app
             ▽ 📁 Controllers
