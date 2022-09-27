@@ -62,14 +62,14 @@ Locate with the console in the directory where you want to clone the repository 
 3. Now set git to point to your repository:
 	```console
 	cd my-app
-    git remote set-url origin https://github.com/yourusername/your-project.git
+    git remote set-url origin <repository url>
 	```
 
 4. Commit and push to origin to save the folder structure in your repository (Optional):
 	```console
 	git add .
 	git commit -m "folder structure created"
-	git push -u origin master or main
+	git push -u origin <your branch>
 	```
 
 ## License
