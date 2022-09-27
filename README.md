@@ -1,4 +1,4 @@
-# Node Project Structure :open_file_folder:
+# Node Directory Structure :open_file_folder:
 A directory structure for projects with [Node](https://nodejs.org).
 
 ## Table of Contents
