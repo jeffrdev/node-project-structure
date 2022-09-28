@@ -1,0 +1,23 @@
+{
+  "name": "directory-structure",
+  "version": "1.0.0",
+  "description": "A directory structure for projects with [Node](https://nodejs.org).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagor0jas/node-directory-structure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagor0jas/node-directory-structure/issues"
+  },
+  "homepage": "https://github.com/santiagor0jas/node-directory-structure#readme"
+}
