@@ -1,5 +1,5 @@
-# Node Directory Structure :open_file_folder:
-A directory structure for projects with [Node](https://nodejs.org).
+# Node Project Structure :open_file_folder:
+A template for projects with [Node](https://nodejs.org), Express and Sequelize.
 
 ## Table of Contents
 * [Philosophy](#philosophy)
