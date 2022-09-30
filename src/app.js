@@ -1,10 +1,13 @@
 'use strict'
 
 require('dotenv').config()
+
 const express = require('express')
 const morgan = require('morgan')
 const path = require('path')
+
 const routes = require('./routes/index')
+
 const app = express()
 
 app.set('host', process.env.NODE_HOST || '127.0.0.1')
