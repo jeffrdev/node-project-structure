@@ -1,6 +1,8 @@
 'use strict'
 
-const { Router: router } = require('express')
+const { Router } = require('express')
+
+const router = Router()
 
 const webRoutes = require('./web')
 const apiRoutes = require('./api')

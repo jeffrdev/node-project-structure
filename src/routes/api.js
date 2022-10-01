@@ -1,6 +1,8 @@
 'use strict'
 
-const { Router: route } = require('express')
+const { Router } = require('express')
+
+const route = Router()
 
 route.get('/', (req, res) => {
   res.json({
