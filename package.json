@@ -10,8 +10,11 @@
     "ip": "npm i express sequelize mariadb morgan dotenv",
     "ipd": "npm i sequelize-cli nodemon -D",
     "dev": "nodemon index.js",
-    "test": "jest",
-    "start": "node index.js"
+    "test": "cross-env NODE_ENV=test jest",
+    "start": "node index.js",
+    "db:migrate:dev": "npx sequelize-cli db:migrate --env development",
+    "db:migrate:tes": "npx sequelize-cli db:migrate --env test",
+    "db:migrate:pro": "npx sequelize-cli db:migrate --env production"
   },
   "repository": {
     "type": "git",
