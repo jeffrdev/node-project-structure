@@ -1,5 +1,7 @@
 'use strict'
 
+require('dotenv').config()
+
 module.exports = {
   development: {
     dialect: process.env.DEV_DB_DIALECT || 'mysql',
