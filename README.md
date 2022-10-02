@@ -57,7 +57,7 @@ The philosophy of this repository is to provide a basic directory structure for 
 Use the option that suits you.
 
 ### Use this template
-This repository is a template so you can use it by clicking on **Use this template** and following the steps.
+This repository is a template so you can use it by clicking on `Use this template` and following the steps.
 
 ### Git
 Locate with the console in the directory where you want to clone the repository and follow these steps:
@@ -90,7 +90,7 @@ Visiting the following link:
 ```
 https://github.com/santiagor0jas/node-directory-structure/archive/refs/heads/node-express-sequelize.zip
 ```
-Or using the **Github Download Function**.
+Or using the `Github Download Function`.
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
