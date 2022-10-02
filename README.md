@@ -14,23 +14,23 @@ The philosophy of this repository is to provide a basic directory structure for 
 ## Folder and file structure
 ```
 ▽ 📁 node-directory-structure
-	▽	📁 database
-		▽	📁 migrations
-				📄 20220930205428-create-user.js
-		▽	📁 seeders
-				📄 20220930210121-user.js
+  ▽ 📁 database
+    ▽ 📁 migrations
+        📄 20220930205428-create-user.js
+    ▽ 📁 seeders
+        📄 20220930210121-user.js
   ▽ 📁 src
-  	▽ 📁 app
-    	▽ 📁 Controllers
-        	📄 UserController.js
+    ▽ 📁 app
+      ▽ 📁 Controllers
+          📄 UserController.js
       ▽ 📁 Helpers
           📄 Jwt.js
       ▽ 📁 Middleware
           📄 VerifyToken.js
       ▽ 📁 Models
-        	📄 User.js
+          📄 User.js
       ▽ 📁 Services
-        	📄 UserService.js
+          📄 UserService.js
     ▽ 📁 config
       	📄 database.js
     ▽ 📁 public
@@ -41,14 +41,14 @@ The philosophy of this repository is to provide a basic directory structure for 
         📄 index.ejs
       📄 app.js
   ▽ 📁 tests
-    	📄 user.test.js
+      📄 user.test.js
     📄 .env
     📄 .env.example
     📄 .gitignore
     📄 .sequelizerc
     📄 index.js
-		📄 LICENSE
-		📄 README.md
+    📄 LICENSE
+    📄 README.md
 ```
 > The files found in each folder were created so that the folders were uploaded to the repository.
 
