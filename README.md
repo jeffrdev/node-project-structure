@@ -4,8 +4,10 @@ A template for projects with [Node](https://nodejs.org), Express and Sequelize.
 ## Table of Contents
 * [Philosophy](#philosophy)
 * [Folder and file structure](#folder-and-file-structure)
-* [Use](#use)
-	* [Cloning the repository with git](#cloning-the-repository-with-git)
+* [Getting Started](#getting-started)
+    * [Use this template](#use-this-template)
+	* [Git](#git)
+    * [Download ZIP](#download-zip)
 * [License](#license)
 
 ## Philosophy
@@ -51,9 +53,13 @@ The philosophy of this repository is to provide a basic directory structure for 
     📄 README.md
 ```
 
-## Use
+## Getting Started
+Use the option that suits you.
 
-### Cloning the repository with git
+### Use this template
+Click **Use this template** and follow the steps.
+
+### Git
 Locate with the console in the directory where you want to clone the repository and follow these steps:
 
 1. Clone the `Node Project Structure` repository:
@@ -76,6 +82,15 @@ Locate with the console in the directory where you want to clone the repository 
 	git commit -m "folder structure created"
 	git push -u origin <your branch>
 	```
+
+### Download Zip
+Download the repository of this branch.
+
+Visiting the following link:
+```
+https://github.com/santiagor0jas/node-directory-structure/archive/refs/heads/node-express-sequelize.zip
+```
+Or using the **Github Download Function**.
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
