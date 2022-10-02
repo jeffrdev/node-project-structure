@@ -57,7 +57,7 @@ The philosophy of this repository is to provide a basic directory structure for 
 Use the option that suits you.
 
 ### Use this template
-Click **Use this template** and follow the steps.
+This repository is a template so you can use it by clicking on **Use this template** and following the steps.
 
 ### Git
 Locate with the console in the directory where you want to clone the repository and follow these steps:
