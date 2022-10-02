@@ -8,7 +8,7 @@
   },
   "scripts": {
     "ip": "npm i express sequelize mariadb morgan dotenv",
-    "ipd": "npm i sequelize-cli nodemon -D",
+    "ipd": "npm i sequelize-cli nodemon cross-env -D",
     "dev": "nodemon index.js",
     "test": "cross-env NODE_ENV=test jest",
     "start": "node index.js",
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/santiagor0jas/node-directory-structure#readme",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "mariadb": "^3.0.1",
