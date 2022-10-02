@@ -53,6 +53,19 @@ The philosophy of this repository is to provide a basic directory structure for 
     📄 README.md
 ```
 
+## Dependencies or Packages Used
+
+| Dependencie or Package                                       | Dev |
+| ------------------------------------------------------------ | --- |
+| [cross-env](https://www.npmjs.com/package/cross-env)         | No  |
+| [dotenv](https://www.npmjs.com/package/dotenv)               | No  |
+| [express](https://www.npmjs.com/package/express)             | No  |
+| [morgan](https://www.npmjs.com/package/morgan)               | No  |
+| [sequelize](https://www.npmjs.com/package/sequelize)         | No  |
+| [nodemon](https://www.npmjs.com/package/nodemon)             | Yes |
+| [sequelize-cli](https://www.npmjs.com/package/sequelize-cli) | Yes |
+> Remember to install the driver for the database of your choice, for [more info](https://sequelize.org/docs/v6/getting-started)
+
 ## Getting Started
 Use the option that suits you.
 
