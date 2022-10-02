@@ -3,7 +3,8 @@ A template for projects with [Node](https://nodejs.org), Express and Sequelize.
 
 ## Table of Contents
 * [Philosophy](#philosophy)
-* [Folder and file structure](#folder-and-file-structure)
+* [Folder and File Structure](#folder-and-file-structure)
+* [Dependencies or Packages Used](#dependencies-or-packages-used)
 * [Getting Started](#getting-started)
     * [Use this template](#use-this-template)
 	* [Git](#git)
@@ -13,7 +14,7 @@ A template for projects with [Node](https://nodejs.org), Express and Sequelize.
 ## Philosophy
 The philosophy of this repository is to provide a basic directory structure for creating projects with node and save some time.
 
-## Folder and file structure
+## Folder and File Structure
 ```
 ▽ 📁 node-directory-structure
   ▽ 📁 database
