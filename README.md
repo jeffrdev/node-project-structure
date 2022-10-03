@@ -103,7 +103,7 @@ Download the repository of this branch.
 
 Visiting the following link:
 ```
-https://github.com/santiagor0jas/node-directory-structure/archive/refs/heads/node-express-sequelize.zip
+https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/node-express-sequelize.zip
 ```
 Or using the `Github Download Function`.
 
