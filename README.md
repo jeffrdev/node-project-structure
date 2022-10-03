@@ -17,7 +17,7 @@ The philosophy of this repository is to provide a basic directory structure for 
 
 ## Folder and File Structure
 ```
-▽ 📁 node-directory-structure
+▽ 📁 node-project-structure
   ▽ 📁 database
     ▽ 📁 migrations
         📄 20220930205428-create-user.js
@@ -77,7 +77,7 @@ This repository is a template so you can use it by clicking on `Use this templat
 ### Git
 Locate with the console in the directory where you want to clone the repository and follow these steps:
 
-1. Clone the `Node Project Structure` repository:
+1. Clone the `node-express-sequelize` branch of the `Node Project Structure` repository:
 	```console
     git clone --branch node-express-sequelize https://github.com/santiagor0jas/node-project-structure.git
 	```
