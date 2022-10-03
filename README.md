@@ -58,9 +58,9 @@ This repository is a template so you can use it by clicking on `Use this templat
 ### Git
 Locate with the console in the directory where you want to clone the repository and follow these steps:
 
-1. Clone the `node-express-sequelize` branch of the `Node Project Structure` repository:
+1. Clone the `main` branch of the `Node Project Structure` repository:
 	```console
-    git clone --branch node-express-sequelize https://github.com/santiagor0jas/node-project-structure.git
+    git clone --branch main https://github.com/santiagor0jas/node-project-structure.git
 	```
 
 2. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
@@ -84,7 +84,7 @@ Download the repository of this branch.
 
 Visiting the following link:
 ```
-https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/node-express-sequelize.zip
+https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/main.zip
 ```
 Or using the `Github Download Function`.
 
@@ -99,17 +99,7 @@ After cloning or downloading the repository, go to the folder using the console 
 	npm init -y
 	```
 
-2. Install dependencies:
-
-	```console
-	npm install express sequelize morgan dotenv
-	```
-
-3. Install development dependencies:
-
-	```console
-	npm install -D sequelize-cli nodemon cross-env
-	```
+2. Install the dependencies you are going to use in your project.
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
