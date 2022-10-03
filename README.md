@@ -7,7 +7,7 @@ A template for projects with [Node](https://nodejs.org), Express and Sequelize.
 * [Dependencies or Packages Used](#dependencies-or-packages-used)
 * [Getting Started](#getting-started)
     * [Use this template](#use-this-template)
-		* [Git](#git)
+	* [Git](#git)
     * [Download ZIP](#download-zip)
 * [Project Setup](#project-setup)
 * [License](#license)
