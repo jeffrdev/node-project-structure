@@ -38,6 +38,7 @@ The philosophy of this repository is to provide a basic directory structure for 
     ▽ 📁 config
       	📄 database.js
     ▽ 📁 public
+        📄 favicon.ico
         📄 robots.txt
     ▽ 📁 routes
         📄 api.js
