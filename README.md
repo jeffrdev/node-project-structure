@@ -7,8 +7,9 @@ A template for projects with [Node](https://nodejs.org), Express and Sequelize.
 * [Dependencies or Packages Used](#dependencies-or-packages-used)
 * [Getting Started](#getting-started)
     * [Use this template](#use-this-template)
-	* [Git](#git)
+		* [Git](#git)
     * [Download ZIP](#download-zip)
+* [Project Setup](#project-setup)
 * [License](#license)
 
 ## Philosophy
@@ -105,6 +106,29 @@ Visiting the following link:
 https://github.com/santiagor0jas/node-directory-structure/archive/refs/heads/node-express-sequelize.zip
 ```
 Or using the `Github Download Function`.
+
+## Project Setup
+After cloning or downloading the repository, go to the folder using the console and run the following commands:
+
+1. Initialize project:
+
+	> It is recommended to set git to point to your repository before running this command.
+	
+	```console
+	npm init -y
+	```
+
+2. Install dependencies:
+
+	```console
+	npm install express sequelize morgan dotenv
+	```
+
+3. Install development dependencies:
+
+	```console
+	npm install -D sequelize-cli nodemon cross-env
+	```
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
