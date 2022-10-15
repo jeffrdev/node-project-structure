@@ -1,8 +1,18 @@
+# Node Project Structure
+The philosophy of this repository is to provide templates for creating projects with node. Create something amazing! without worrying about the little things.
+
+## Branches
+Each of the branches of this repository except the main branch has a project template adapted to different technologies.
+
+```
+🎏 main
+🎏 node-express-sequelize
+```
+
 # Node Directory Structure :open_file_folder:
 A directory structure for projects with [Node](https://nodejs.org).
 
 ## Table of Contents
-* [Philosophy](#philosophy)
 * [Folder and file structure](#folder-and-file-structure)
 * [Getting Started](#getting-started)
 	* [Use this template](#use-this-template)
@@ -10,9 +20,6 @@ A directory structure for projects with [Node](https://nodejs.org).
   * [Download ZIP](#download-zip)
 * [Project Setup](#project-setup)
 * [License](#license)
-
-## Philosophy
-The philosophy of this repository is to provide a basic directory structure for creating projects with node and save some time.
 
 ## Folder and file structure
 ```
