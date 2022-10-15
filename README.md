@@ -4,20 +4,15 @@ The philosophy of this repository is to provide templates for creating projects 
 ## Branches
 Each of the branches of this repository except the main branch has a project template adapted to different technologies.
 
-```
-🎏 main
-🎏 node-express-sequelize
-```
-
 # Node Directory Structure :open_file_folder:
-A directory structure for projects with [Node](https://nodejs.org).
+This branch provides a template for creating projects with [Node](https://nodejs.org). You can adapt it to the technologies you want to use.
 
 ## Table of Contents
 * [Folder and file structure](#folder-and-file-structure)
 * [Getting Started](#getting-started)
 	* [Use this template](#use-this-template)
 	* [Git](#git)
-  * [Download ZIP](#download-zip)
+	* [Download ZIP](#download-zip)
 * [Project Setup](#project-setup)
 * [License](#license)
 
