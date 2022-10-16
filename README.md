@@ -92,12 +92,5 @@ Or using the `Github Download Function`.
 	npm init -y
 	```
 
-4. (Optional) Commit and push to origin to save the folder structure in your repository:
-	```console
-	git add .
-	git commit -m "folder structure created"
-	git push -u origin <branch-name>
-	```
-
 ## License
 This project is licensed under the [MIT License](./LICENSE).
