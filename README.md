@@ -79,12 +79,12 @@ Or using the `Github Download Function`.
 1. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
 	> **Please note that** if your project needs to be licensed, modify the `my-app/LICENSE` file, otherwise delete it.
 
-2. Now go to the my-app folder using the console and run the following to configure git to point to your repository.
+2. Now go to the `my-app` folder using the console and run the following to configure git to point to your repository.
 	```console
 	git remote set-url origin <repository-url>
 	```
 
-3. (Optional) Initialize project:
+3. Initialize project:
 
 	> It is recommended to set git to point to your repository before running this command.
 
