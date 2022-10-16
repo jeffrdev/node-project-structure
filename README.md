@@ -58,28 +58,12 @@ Use the option that suits you.
 This repository is a template so you can use it by clicking on `Use this template` and following the steps.
 
 ### Git
-Locate with the console in the directory where you want to clone the repository and follow these steps:
+Locate with the console in the directory where you want to clone the repository and execute the following:
 
-1. Clone the `main` branch of the `Node Project Structure` repository:
-	```console
-    git clone --branch main https://github.com/santiagor0jas/node-project-structure.git
-	```
-
-2. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
-	> **Please note that** if your project needs to be licensed, modify the `my-app/LICENSE` file, otherwise delete it.
-
-3. Now set git to point to your repository:
-	```console
-	cd my-app
-    git remote set-url origin <repository url>
-	```
-
-4. Commit and push to origin to save the folder structure in your repository (Optional):
-	```console
-	git add .
-	git commit -m "folder structure created"
-	git push -u origin <your branch>
-	```
+Clone the `main` branch of the `Node Project Structure` repository:
+```console
+git clone --branch main https://github.com/santiagor0jas/node-project-structure.git
+```
 
 ### Download Zip
 Download the repository of this branch.
@@ -93,15 +77,29 @@ Or using the `Github Download Function`.
 ## Project Setup
 After cloning or downloading the repository, go to the folder using the console and run the following commands:
 
-1. Initialize project:
+1. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
+	> **Please note that** if your project needs to be licensed, modify the `my-app/LICENSE` file, otherwise delete it.
+
+2. Now set git to point to your repository:
+	```console
+	cd my-app
+    git remote set-url origin <repository url>
+	```
+
+3. (Optional) Initialize project:
 
 	> It is recommended to set git to point to your repository before running this command.
-	
+
 	```console
 	npm init -y
 	```
 
-2. Install the dependencies you are going to use in your project.
+4. (Optional) Commit and push to origin to save the folder structure in your repository:
+	```console
+	git add .
+	git commit -m "folder structure created"
+	git push -u origin <your branch>
+	```
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
