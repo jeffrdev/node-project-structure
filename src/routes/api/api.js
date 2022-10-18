@@ -6,7 +6,7 @@ const route = Router()
 
 route.get('/', (req, res) => {
   res.json({
-    message: 'Welcome!'
+    message: 'Welcome! Thanks for using Node Project Structure.'
   })
 })
 
