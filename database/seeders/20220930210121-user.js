@@ -7,7 +7,7 @@ module.exports = {
      * Add seed commands here.
      *
      * Example:
-     * await queryInterface.bulkInsert('People', [{
+     * await queryInterface.bulkInsert('user', [{
      *   name: 'John Doe',
      *   isBetaMember: false
      * }], {});
@@ -19,7 +19,7 @@ module.exports = {
      * Add commands to revert seed here.
      *
      * Example:
-     * await queryInterface.bulkDelete('People', null, {});
+     * await queryInterface.bulkDelete('user', null, {});
      */
   }
 };

@@ -1,14 +1,18 @@
 'use strict'
 
-const app = require('./src/app')
-const { sequelize } = require('./src/app/Models/index')
+import app from './src/app.js'
+import db from './src/app/Models/index.js'
 
-app.listen(app.get('port'), app.get('host'), () => {
+app.listen(app.get('port'), app.get('host'), error => {
+  if (error) console.log(error)
+
   if (app.get('env') === 'development') {
-    console.log(`Server connected in http://${app.get('host')}:${app.get('port')}`)
+    console.log(`Online server in http://${app.get('host')}:${app.get('port')}`)
 
-    sequelize.authenticate()
-      .then(() => console.log('Connected database'))
+    db
+      .sequelize
+      .authenticate()
+      .then(() => console.log('Online database'))
       .catch(error => console.log('Error connecting database', error))
   }
 })
