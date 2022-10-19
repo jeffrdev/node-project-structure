@@ -5,8 +5,8 @@ import path from 'path'
 import express from 'express'
 import morgan from 'morgan'
 
-import webRoutes from './routes/web/index.js'
-import apiRoutes from './routes/api/index.js'
+import webRoutes from './routes/web/web.js'
+import apiRoutes from './routes/api/api.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
