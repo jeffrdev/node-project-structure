@@ -1,9 +1,9 @@
 import 'dotenv/config'
 
-import express from 'express'
-import path from 'path'
-import morgan from 'morgan'
 import { fileURLToPath } from 'url'
+import path from 'path'
+import express from 'express'
+import morgan from 'morgan'
 
 import webRoutes from './routes/web/index.js'
 import apiRoutes from './routes/api/index.js'
