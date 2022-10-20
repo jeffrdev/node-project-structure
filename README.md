@@ -1,5 +1,5 @@
-# Node Project Structure :open_file_folder:
-A template for projects with [Node](https://nodejs.org), Express and Sequelize.
+# esm-express-sequelize 📂
+A template to create projects with [Node](https://nodejs.org) (ESM - ECMAScript Modules), [Express](https://expressjs.com) and [Sequelize](https://sequelize.org).
 
 ## Table of Contents
 * [Philosophy](#philosophy)
@@ -13,7 +13,7 @@ A template for projects with [Node](https://nodejs.org), Express and Sequelize.
 * [License](#license)
 
 ## Philosophy
-The philosophy of this repository is to provide a basic directory structure for creating projects with node and save some time.
+The philosophy of this repository is to provide a template to create projects with node and save some time.
 
 ## Folder and File Structure
 ```
@@ -60,14 +60,13 @@ The philosophy of this repository is to provide a basic directory structure for 
 
 | Dependencie or Package                                       | Dev |
 | ------------------------------------------------------------ | --- |
-| [cross-env](https://www.npmjs.com/package/cross-env)         | No  |
 | [dotenv](https://www.npmjs.com/package/dotenv)               | No  |
 | [express](https://www.npmjs.com/package/express)             | No  |
 | [morgan](https://www.npmjs.com/package/morgan)               | No  |
 | [sequelize](https://www.npmjs.com/package/sequelize)         | No  |
 | [nodemon](https://www.npmjs.com/package/nodemon)             | Yes |
 | [sequelize-cli](https://www.npmjs.com/package/sequelize-cli) | Yes |
-> Remember to install the driver for the database of your choice, for [more info](https://sequelize.org/docs/v6/getting-started)
+> Remember to install the driver for the database of your choice, for [more info](https://sequelize.org).
 
 ## Getting Started
 Use the option that suits you.
@@ -76,59 +75,49 @@ Use the option that suits you.
 This repository is a template so you can use it by clicking on `Use this template` and following the steps.
 
 ### Git
-Locate with the console in the directory where you want to clone the repository and follow these steps:
+Locate with the console in the directory where you want to clone the repository and execute the following:
 
-1. Clone the `node-express-sequelize` branch of the `Node Project Structure` repository:
-	```console
-    git clone --branch node-express-sequelize https://github.com/santiagor0jas/node-project-structure.git
-	```
-
-2. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
-	> **Please note that** if your project needs to be licensed, modify the `my-app/LICENSE` file, otherwise delete it.
-
-3. Now set git to point to your repository:
-	```console
-	cd my-app
-    git remote set-url origin <repository url>
-	```
-
-4. Commit and push to origin to save the folder structure in your repository (Optional):
-	```console
-	git add .
-	git commit -m "folder structure created"
-	git push -u origin <your branch>
-	```
+Clone the `main` branch of the `Node Project Structure` repository:
+```console
+git clone --branch main https://github.com/santiagor0jas/node-project-structure.git
+```
 
 ### Download Zip
 Download the repository of this branch.
 
 Visiting the following link:
 ```
-https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/node-express-sequelize.zip
+https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/main.zip
 ```
 Or using the `Github Download Function`.
 
 ## Project Setup
-After cloning or downloading the repository, go to the folder using the console and run the following commands:
 
-1. Initialize project:
+1. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
+	> **Please note that** if your project needs to be licensed, modify the `my-app/LICENSE` file, otherwise delete it.
+
+2. Now go to the `my-app` folder using the console and run the following to configure git to point to your repository.
+	```console
+	git remote set-url origin <repository-url>
+	```
+
+3. Initialize project:
 
 	> It is recommended to set git to point to your repository before running this command.
-	
+
 	```console
 	npm init -y
 	```
 
-2. Install dependencies:
-
+4. Install dependencies
 	```console
-	npm install express sequelize morgan dotenv
+	npm install express sequelize dotenv morgan 
 	```
+	> Remember to install the driver for the database of your choice, for [more info](https://sequelize.org).
 
-3. Install development dependencies:
-
+5. Install development dependencies
 	```console
-	npm install -D sequelize-cli nodemon cross-env
+	npm install -D sequelize-cli nodemon
 	```
 
 ## License
