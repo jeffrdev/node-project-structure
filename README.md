@@ -1,5 +1,5 @@
-# esm-express-sequelize 📂
-A template to create projects with [Node](https://nodejs.org) (ESM - ECMAScript Modules), [Express](https://expressjs.com) and [Sequelize](https://sequelize.org).
+# cjs-express-sequelize 📂
+A template to create projects with [Node](https://nodejs.org) (CJS - Common JS), [Express](https://expressjs.com) and [Sequelize](https://sequelize.org).
 
 ## Table of Contents
 * [Philosophy](#philosophy)
@@ -77,9 +77,9 @@ This repository is a template so you can use it by clicking on `Use this templat
 ### Git
 Locate with the console in the directory where you want to clone the repository and execute the following:
 
-Clone the `esm-express-sequelize` branch of the `Node Project Structure` repository:
+Clone the `cjs-express-sequelize` branch of the `Node Project Structure` repository:
 ```console
-git clone --branch esm-express-sequelize https://github.com/santiagor0jas/node-project-structure.git
+git clone --branch cjs-express-sequelize https://github.com/santiagor0jas/node-project-structure.git
 ```
 
 ### Download Zip
@@ -87,7 +87,7 @@ Download the repository of this branch.
 
 Visiting the following link:
 ```
-https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/esm-express-sequelize.zip
+https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/cjs-express-sequelize.zip
 ```
 Or using the `Github Download Function`.
 
