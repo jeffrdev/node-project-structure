@@ -4,7 +4,7 @@ The philosophy of this repository is to provide templates for creating projects 
 ## Branches
 Each of the branches of this repository except the main branch has a project template adapted to different technologies.
 
-# Node Directory Structure :open_file_folder:
+# main 📂
 This branch provides a template for creating projects with [Node](https://nodejs.org). You can adapt it to the technologies you want to use.
 
 ## Table of Contents
@@ -76,7 +76,7 @@ Or using the `Github Download Function`.
 
 ## Project Setup
 
-1. After cloning the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
+1. After cloning or downloading the repository, a folder named `node-project-structure` will be created in the selected directory, remember to rename this folder, for example `my-app`.
 	> **Please note that** if your project needs to be licensed, modify the `my-app/LICENSE` file, otherwise delete it.
 
 2. Now go to the `my-app` folder using the console and run the following to configure git to point to your repository.
