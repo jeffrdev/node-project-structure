@@ -1,37 +1,49 @@
 'use strict'
 
+// Load Environment Variables
 require('dotenv').config()
 
-const express = require('express')
-const morgan = require('morgan')
+// Dependencies or Packages
+const fastify = require('fastify')
+const staticFiles = require('@fastify/static')
 const path = require('path')
+const cors = require('@fastify/cors')
 
+// Routes
 const webRoutes = require('./routes/web/web')
 const apiRoutes = require('./routes/api/api')
 
-const app = express()
+// Initialize App
+const app = fastify({ logger: true })
 
 /* SETTINGS */
 
-app.set('host', process.env.NODE_HOST || '127.0.0.1')
-app.set('port', process.env.NODE_PORT || 3000)
-app.set('env', process.env.NODE_ENV || 'development')
-app.set('view engine', 'ejs')
-app.set('views', path.join(__dirname, 'views'))
+// Host
+app.decorate('host', process.env.NODE_HOST)
 
-/* MIDDLEWARE */
+// Port
+app.decorate('port', process.env.NODE_PORT)
 
-if (app.get('env') === 'development') app.use(morgan('dev'))
-app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
-app.use(express.static(path.join(__dirname, 'public')))
+// Environment
+app.decorate('env', process.env.NODE_ENV)
+
+/* PLUGINS */
+
+// Static Files
+app.register(staticFiles, {
+  root: path.join(__dirname, 'public'),
+  prefix: '/'
+})
+
+// CORS
+app.register(cors)
 
 /* ROUTES */
 
 // WEB Routes
-app.use(webRoutes)
+app.register(webRoutes)
 
 // API Routes
-app.use('/api', apiRoutes)
+app.register(apiRoutes, { prefix: '/api' })
 
 module.exports = app

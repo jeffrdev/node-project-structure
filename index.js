@@ -3,15 +3,18 @@
 const app = require('./src/app')
 const { sequelize } = require('./src/app/Models/index')
 
-app.listen(app.get('port'), app.get('host'), error => {
-  if (error) console.log(error)
+app.listen({ port: app.port, host: app.host }, (err, address) => {
+  if (err) {
+    app.log.error(err)
+    process.exit(1)
+  }
 
-  if (app.get('env') === 'development') {
-    console.log(`Online server in http://${app.get('host')}:${app.get('port')}`)
+  if (app.env === 'development') {
+    console.log(`Online server in ${address}`)
 
     sequelize
       .authenticate()
       .then(() => console.log('Online database'))
-      .catch(error => console.log('Error connecting database', error))
+      .catch(err => console.log('Error connecting database', err))
   }
 })

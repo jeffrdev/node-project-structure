@@ -1,13 +1,9 @@
 'use strict'
 
-const { Router } = require('express')
-
-const route = Router()
-
-route.get('/', (req, res) => {
-  res.json({
-    message: 'Welcome! Thanks for using Node Project Structure.'
+module.exports = async function (fastify, options) {
+  fastify.get('/', async (request, reply) => {
+    reply.send({
+      message: 'Welcome! Thanks for using Node Project Structure.'
+    })
   })
-})
-
-module.exports = route
+}
