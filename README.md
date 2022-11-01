@@ -1,5 +1,5 @@
-# cjs-express-sequelize 📂
-A template to create projects with [Node](https://nodejs.org) (CJS - Common JS), [Express](https://expressjs.com) and [Sequelize](https://sequelize.org).
+# cjs-fastify-sequelize 📂
+A template to create projects with [Node](https://nodejs.org) (CJS - Common JS), [Fastify](https://www.fastify.io) and [Sequelize](https://sequelize.org).
 
 ## Table of Contents
 * [Philosophy](#philosophy)
@@ -41,7 +41,10 @@ The philosophy of this repository is to provide a template to create projects wi
         📄 favicon.ico
         📄 robots.txt
     ▽ 📁 routes
-        📄 api.js
+        📁 api
+          📄 api.js
+        📁 web
+          📄 web.js
     ▽ 📁 views
         📄 index.ejs
       📄 app.js
@@ -58,14 +61,15 @@ The philosophy of this repository is to provide a template to create projects wi
 
 ## Dependencies or Packages Used
 
-| Dependencie or Package                                       | Dev |
-| ------------------------------------------------------------ | --- |
-| [dotenv](https://www.npmjs.com/package/dotenv)               | No  |
-| [express](https://www.npmjs.com/package/express)             | No  |
-| [morgan](https://www.npmjs.com/package/morgan)               | No  |
-| [sequelize](https://www.npmjs.com/package/sequelize)         | No  |
-| [nodemon](https://www.npmjs.com/package/nodemon)             | Yes |
-| [sequelize-cli](https://www.npmjs.com/package/sequelize-cli) | Yes |
+| Dependencie or Package                                           | Dev |
+| ---------------------------------------------------------------- | --- |
+| [@fastify/cors](https://www.npmjs.com/package/@fastify/cors)     | No  |
+| [@fastify/static](https://www.npmjs.com/package/@fastify/static) | No  |
+| [dotenv](https://www.npmjs.com/package/dotenv)                   | No  |
+| [fastify](https://www.npmjs.com/package/fastify)                 | No  |
+| [sequelize](https://www.npmjs.com/package/sequelize)             | No  |
+| [nodemon](https://www.npmjs.com/package/nodemon)                 | Yes |
+| [sequelize-cli](https://www.npmjs.com/package/sequelize-cli)     | Yes |
 > Remember to install the driver for the database of your choice, for [more info](https://sequelize.org).
 
 ## Getting Started
@@ -77,9 +81,9 @@ This repository is a template so you can use it by clicking on `Use this templat
 ### Git
 Locate with the console in the directory where you want to clone the repository and execute the following:
 
-Clone the `cjs-express-sequelize` branch of the `Node Project Structure` repository:
+Clone the `cjs-fastify-sequelize` branch of the `Node Project Structure` repository:
 ```console
-git clone --branch cjs-express-sequelize https://github.com/santiagor0jas/node-project-structure.git
+git clone --branch cjs-fastify-sequelize https://github.com/santiagor0jas/node-project-structure.git
 ```
 
 ### Download Zip
@@ -87,7 +91,7 @@ Download the repository of this branch.
 
 Visiting the following link:
 ```
-https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/cjs-express-sequelize.zip
+https://github.com/santiagor0jas/node-project-structure/archive/refs/heads/cjs-fastify-sequelize.zip
 ```
 Or using the `Github Download Function`.
 
@@ -111,7 +115,7 @@ Or using the `Github Download Function`.
 
 4. Install dependencies
 	```console
-	npm install express sequelize dotenv morgan 
+	npm install fastify @fastify/cors @fastify/static sequelize dotenv
 	```
 	> Remember to install the driver for the database of your choice, for [more info](https://sequelize.org).
 
