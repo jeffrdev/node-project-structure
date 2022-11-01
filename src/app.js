@@ -19,13 +19,13 @@ const app = fastify({ logger: true })
 /* SETTINGS */
 
 // Host
-app.decorate('host', process.env.NODE_HOST)
+app.decorate('host', process.env.NODE_HOST || '127.0.0.1')
 
 // Port
-app.decorate('port', process.env.NODE_PORT)
+app.decorate('port', process.env.NODE_PORT || 3000)
 
 // Environment
-app.decorate('env', process.env.NODE_ENV)
+app.decorate('env', process.env.NODE_ENV || 'development')
 
 /* PLUGINS */
 
