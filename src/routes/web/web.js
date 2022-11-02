@@ -1,6 +1,4 @@
-'use strict'
-
-module.exports = async function (fastify, options) {
+export default async function (fastify, options) {
   fastify.get('/', async (request, reply) => {
     reply
       .type('text/html')

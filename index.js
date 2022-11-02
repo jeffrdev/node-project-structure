@@ -1,7 +1,5 @@
-'use strict'
-
-const app = require('./src/app')
-const { sequelize } = require('./src/app/Models/index')
+import app from './src/app.js'
+import db from './src/app/Models/index.js'
 
 app.listen({ port: app.port, host: app.host }, (err, address) => {
   if (err) {
@@ -12,7 +10,8 @@ app.listen({ port: app.port, host: app.host }, (err, address) => {
   if (app.env === 'development') {
     console.log(`Online server in ${address}`)
 
-    sequelize
+    db
+      .sequelize
       .authenticate()
       .then(() => console.log('Online database'))
       .catch(err => console.log('Error connecting database', err))

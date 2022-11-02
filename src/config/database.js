@@ -1,8 +1,6 @@
-'use strict'
+import 'dotenv/config'
 
-require('dotenv').config()
-
-module.exports = {
+export default {
   development: {
     dialect: process.env.DEV_DB_DIALECT || 'mysql',
     host: process.env.DEV_DB_HOST || '127.0.0.1',

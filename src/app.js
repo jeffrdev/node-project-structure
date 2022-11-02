@@ -1,20 +1,22 @@
-'use strict'
-
 // Load Environment Variables
-require('dotenv').config()
+import 'dotenv/config'
 
 // Dependencies or Packages
-const fastify = require('fastify')
-const staticFiles = require('@fastify/static')
-const path = require('path')
-const cors = require('@fastify/cors')
+import fastify from 'fastify'
+import staticFiles from '@fastify/static'
+import path from 'path'
+import { fileURLToPath } from 'url'
+import cors from '@fastify/cors'
 
 // Routes
-const webRoutes = require('./routes/web/web')
-const apiRoutes = require('./routes/api/api')
+import webRoutes from './routes/web/web.js'
+import apiRoutes from './routes/api/api.js'
 
 // Initialize App
 const app = fastify({ logger: true })
+
+// Dirname URL
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 /* SETTINGS */
 
@@ -46,4 +48,4 @@ app.register(webRoutes)
 // API Routes
 app.register(apiRoutes, { prefix: '/api' })
 
-module.exports = app
+export default app
